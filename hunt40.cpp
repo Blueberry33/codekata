@@ -10,7 +10,7 @@ int main()
     n=n/10;
   }
   sum=y;
-  if(y/10==0)
+  if(y>=0 && y<=10)
     cout<<"YES";
   else
   {
@@ -21,7 +21,7 @@ int main()
         y=y/10;
       }
       if(x==y)
-       cout<<"YES":
+       cout<<"YES";
       else
       cout<<"NO";
    }
